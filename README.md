@@ -8,4 +8,4 @@ Once the tools have been installed, we can get started with the steps on buildin
 
 **Step 1**: Create a new project and select "Empty Views Activity". Then name your file whatever you want to name it (e.g. Final App). Ensure the location is saved in the AndroidStudio projects directory, and the build configuration is Kotlin DSL. <br>
 
-**Step 2**: After creating the project, we can get started with coding our mobile application.
+**Step 2**: After creating the project, create your own Kotlin class/file.
