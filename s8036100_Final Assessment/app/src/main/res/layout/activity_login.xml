@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_login.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!--Page Title-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#181717"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- These are the EditText field where users can type -->
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="381dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Student Username"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_field"
+        android:layout_width="384dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Student password"
+        android:inputType="textPassword" />
+
+    <!--To allow users to go to the next page-->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0D0C0C"
+        android:text="@string/login_button"
+        android:textColor="#F2E8E8" />
+
+</LinearLayout>
